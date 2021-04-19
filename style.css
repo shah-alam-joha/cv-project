@@ -1,0 +1,174 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*...body start here...*/
+body{
+    background-color: silver;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*...container start here...*/
+.container{
+    background-color:cadetblue;
+    max-width:1000px ;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+
+/*...image section...*/
+.image-edit{
+    width: 150px;
+    height: 150px;
+    float: left;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.image-edit:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+    border: 3px solid red;
+    cursor: pointer;
+}
+/*...header bio here...*/
+.header-bio{
+    float: left;
+    padding: 30px;
+    color: white;
+}
+ h3, h4, h5, h6{
+    color:rgb(235, 21, 57);
+}
+/*...header start here...*/
+.header-contact{
+    float: right;
+    color: white;
+    padding: 20px;
+
+}
+.header-contact a{
+color:green;
+text-decoration: none;
+}
+
+.header-contact a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.hr{
+    border: 3px solid black;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+
+/*...common horizontal row start here...*/
+.common-hr{
+    border: 2px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100%;
+}
+
+.div-clear{
+    clear: both;
+}
+/*...personal information start here...*/
+.personal-info-left-div{
+    width: 30%;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    color: blue;
+    padding-top: 30px;
+    
+}
+/*...educational information start here...*/
+.edu-info-left-div{
+    width: 30%;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    color: blue;
+    padding-top: 200px;
+    
+}
+
+.work-info-left-div{
+    width: 30%;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+    color: blue;
+    padding-top: 150px;
+    
+}
+
+.right-div{
+    width: 70%;
+    float: left;
+    color: blue;
+    text-align: justify;
+}
+/*...educational information right part start here...*/
+.right-div-left{
+    float: left;
+    max-width: 30%;
+    color: red;
+    text-align: justify;
+    padding: 5px;
+}
+
+.right-div-middle{
+    text-align: justify;
+    float: left;
+    max-width: 30%;
+    color: chartreuse;
+    padding: 5px;
+}
+
+.right-div-right{
+    text-align: justify;
+    float: left;
+    max-width: 30%;
+    color: yellow;
+    padding: 5px;
+}
+/*...footer information start here...*/
+.footer-section{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+.footer-link{
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-link a{
+    text-decoration: none;
+    padding:50px 20px;
+    margin: 0 auto;
+    color: red;
+}
+.copyright{
+    padding: 10px;
+    color: red;
+    text-align: center;
+}
+.last-image{
+    height: 100px;
+    width: 80px;
+    border: 2px  solid white;
+    border-radius: 40%;
+    float: right;
+}
